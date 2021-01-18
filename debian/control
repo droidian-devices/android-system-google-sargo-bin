@@ -1,0 +1,19 @@
+Source: android-system-gsi-28-bin
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 13),
+               curl,
+               tar,
+               xz-utils
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/hybris-mobian/android-system-gsi-28-bin
+Vcs-Git: https://github.com/hybris-mobian-releng/android-system-gsi-28-bin.git
+
+Package: android-system-gsi-28
+Architecture: arm64
+Depends: ${misc:Depends}
+Provides: android-system-image
+Description: Android System Image - gsi-28
+ This package provides a working Android system image for
+ devices capable of booting GSI (Generic System Images).
