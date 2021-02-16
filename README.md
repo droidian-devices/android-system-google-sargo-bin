@@ -27,6 +27,6 @@ Is this image a prebuilt?
 Yes, it is, hence the `-bin` part. Eventually we'll build our own GSI
 image as well (preferably in a Debian buildd environment).
 
-This image is downloaded by the [UBPorts CI Server](https://ci.ubports.com/job/Device Compatibility Images/job/halium-generic_arm64),
+This image is downloaded by the [UBPorts CI Server](https://ci.ubports.com/job/Device%20Compatibility%20Images/job/halium-generic_arm64),
 so huge thanks to them for having built that for us to enjoy (and for being
 generally awesome!)
