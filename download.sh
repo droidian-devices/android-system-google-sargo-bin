@@ -11,4 +11,4 @@ rm -rf downloaded_artifacts
 mkdir -p downloaded_artifacts
 
 curl -L "${DOWNLOAD_URL}" |
-	tar xJvf - -C ${PWD}/downloaded_artifacts
+	tar xJvf - -C "${PWD}/downloaded_artifacts"
