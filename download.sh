@@ -2,10 +2,10 @@
 
 set -e
 
-CI_JOB_ID="16"
+CI_JOB_ID="lastSuccessfulBuild"
 ARCH="arm64"
 
-DOWNLOAD_URL="https://ci.ubports.com/job/Device%20Compatibility%20Images/job/halium-generic_${ARCH}/${CI_JOB_ID}/artifact/halium_halium_${ARCH}.tar.xz"
+DOWNLOAD_URL="https://ci.ubports.com/job/UBportsCommunityPortsJenkinsCI/job/ubports%252Fcommunity-ports%252Fjenkins-ci%252Fgeneric_${ARCH}/job/main/${CI_JOB_ID}/artifact/halium_halium_${ARCH}.tar.xz"
 
 rm -rf downloaded_artifacts
 mkdir -p downloaded_artifacts
