@@ -1,7 +1,7 @@
-android-system-gsi-28-bin
+android-system-google-sargo-bin
 =========================
 
-This package ships a pre-built Android 9 GSI (Generic System Image)
+This package ships a pre-built Android 9 system image for Google Pixel 3a
 so that the Halium initramfs can pick it up during boot.
 
 Why does it matter?
@@ -27,6 +27,6 @@ Is this image a prebuilt?
 Yes, it is, hence the `-bin` part. Eventually we'll build our own GSI
 image as well (preferably in a Debian buildd environment).
 
-This image is downloaded by the [UBPorts CI Server](https://ci.ubports.com/job/UBportsCommunityPortsJenkinsCI/job/ubports%252Fcommunity-ports%252Fjenkins-ci%252Fgeneric_arm64/job/main/),
+This image is downloaded by the [UBPorts CI Server](https://ci.ubports.com/job/UBportsCommunityPortsJenkinsCI/job/ubports%252Fcommunity-ports%252Fjenkins-ci%252Fsargo/job/main/),
 so huge thanks to them for having built that for us to enjoy (and for being
 generally awesome!)

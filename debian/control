@@ -1,4 +1,4 @@
-Source: android-system-gsi-28-bin
+Source: android-system-google-sargo-bin
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Section: misc
 Priority: optional
@@ -7,13 +7,13 @@ Build-Depends: debhelper (>= 13),
                tar,
                xz-utils
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/hybris-mobian/android-system-gsi-28-bin
-Vcs-Git: https://github.com/hybris-mobian-releng/android-system-gsi-28-bin.git
+Vcs-Browser: https://github.com/hybris-mobian/android-system-google-sargo-bin
+Vcs-Git: https://github.com/hybris-mobian-releng/android-system-google-sargo-bin.git
 
-Package: android-system-gsi-28
+Package: android-system-google-sargo
 Architecture: arm64
 Depends: ${misc:Depends}
 Provides: android-system-image
-Description: Android System Image - gsi-28
- This package provides a working Android system image for
- devices capable of booting GSI (Generic System Images).
+Conflicts: android-system-gsi-28
+Description: Android System Image - google-sargo
+ This package provides a working Android system image for Google Pixel 3a.
