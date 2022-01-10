@@ -31,7 +31,7 @@ if [[ "${DOWNLOAD_URL}" == *.tar.xz ]]; then
 	curl -L "${DOWNLOAD_URL}" |
 		tar xJvf - -C "${PWD}/downloaded_artifacts"
 
-	find ${PWD}/downloaded_artifacts -iname \*.img -exec mv \{} ${PWD}/downloaded_artifacts/android-rootfs.img \; -quit
+	find ${PWD}/downloaded_artifacts -iname \*android-rootfs.img -exec mv \{} ${PWD}/downloaded_artifacts/android-rootfs.img \; -quit
 elif [[ "${DOWNLOAD_URL}" == *.img ]]; then
 	info "Selected download url is an .img file"
 	curl -L "${DOWNLOAD_URL}" > "${PWD}/downloaded_artifacts/android-rootfs.img"
