@@ -1,17 +1,17 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: android-system-gsi-28-bin
-Source: https://github.com/hybris-mobian/android-system-gsi-28-bin
+Source: https://github.com/droidian-devices/android-system-gsi-28-bin
 
 Files: *
-Copyright: 2021 Eugenio "g7" Paolantonio <me@medesimo.eu>
+Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2021 Eugenio "g7" Paolantonio <me@medesimo.eu>
+Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 Files: android-rootfs.img
-Copyright: 2005-2021 The Android Open Source Project and many others
+Copyright: 2005-2023 The Android Open Source Project and many others
 License: Apache-2.0
 
 License: BSD-3-clause

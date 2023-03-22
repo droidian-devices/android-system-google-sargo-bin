@@ -1,0 +1,5 @@
+android-system-google-sargo-bin (0.0.1) bookworm; urgency=medium
+
+  * rewrite the script
+
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 22 Mar 2023 05:53:30 +0330

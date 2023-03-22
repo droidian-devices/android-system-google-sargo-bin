@@ -1,14 +1,14 @@
 Source: android-system-google-sargo-bin
-Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: misc
 Priority: optional
 Build-Depends: debhelper (>= 13),
-               curl,
+               wget,
                tar,
                xz-utils
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/hybris-mobian/android-system-google-sargo-bin
-Vcs-Git: https://github.com/hybris-mobian-releng/android-system-google-sargo-bin.git
+Vcs-Browser: https://github.com/droidian-devices/android-system-google-sargo-bin
+Vcs-Git: https://github.com/droidian-devices/android-system-google-sargo-bin.git
 
 Package: android-system-google-sargo
 Architecture: arm64
@@ -16,4 +16,4 @@ Depends: ${misc:Depends}
 Provides: android-system-image
 Conflicts: android-system-gsi-28
 Description: Android System Image - google-sargo
- This package provides a working Android system image for Google Pixel 3a.
+ This package provides a working Android system image for Google Pixel 3a/3a XL.
